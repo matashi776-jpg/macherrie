@@ -6,7 +6,7 @@ const BOX_TIERS = [
   { level: 'Bronze', color: { from: '#4A2000', to: '#C87020' }, accent: '#C87020', sparkles: '✨', perks: ['3-4 full-size products', 'Body care essentials', 'Worth over $80', 'Free gift wrapping'] },
   { level: 'Silver', color: { from: '#2A2A3A', to: '#8A8AAA' }, accent: '#C0C0D0', sparkles: '💫', perks: ['5-6 full-size products', 'Hair + Body mix', 'Worth over $130', 'Free gift + card'] },
   { level: 'Gold', color: { from: '#3A2A00', to: '#D4AF37' }, accent: '#D4AF37', sparkles: '⭐', perks: ['7-8 full-size products', 'Full luxury collection', 'Worth over $220', 'Exclusive limited items'] },
-  { level: 'Diamond', color: { from: '#1A0A2A', to: '#6A3AAA' }, accent: '#E0D0FF', sparkles: '��', perks: ['10+ full-size products', 'Exclusive items', 'Worth over $400', 'Personalized note from founders'] },
+  { level: 'Diamond', color: { from: '#1A0A2A', to: '#6A3AAA' }, accent: '#E0D0FF', sparkles: '💎', perks: ['10+ full-size products', 'Exclusive items', 'Worth over $400', 'Personalized note from founders'] },
 ]
 
 export default async function SecretBoxesPage() {

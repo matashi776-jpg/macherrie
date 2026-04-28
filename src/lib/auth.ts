@@ -44,9 +44,11 @@ export const authOptions: NextAuthOptions = {
     },
     async session({ session, token }) {
       if (token) {
-        (session.user as { role?: unknown; id?: unknown; cherryPoints?: unknown }).role = token.role;
-        (session.user as { role?: unknown; id?: unknown; cherryPoints?: unknown }).id = token.id;
-        (session.user as { role?: unknown; id?: unknown; cherryPoints?: unknown }).cherryPoints = token.cherryPoints
+        type ExtendedUser = { role?: unknown; id?: unknown; cherryPoints?: unknown }
+        const u = session.user as ExtendedUser
+        u.role = token.role
+        u.id = token.id
+        u.cherryPoints = token.cherryPoints
       }
       return session
     },
