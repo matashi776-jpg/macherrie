@@ -55,7 +55,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-cream/40">
-          <p>&copy; 2024 MA space Cherry. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} MA space Cherry. All rights reserved.</p>
           <p>Made with love for beautiful skin & hair</p>
         </div>
       </div>
