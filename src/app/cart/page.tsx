@@ -59,7 +59,7 @@ export default function CartPage() {
     <div className="min-h-screen bg-cream">
       <div className="bg-dark pt-32 pb-12">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="font-script text-rose-300 text-3xl mb-2">Your Cart</div>
+          <div className="font-script text-cherry text-3xl mb-2">Your Cart</div>
           <h1 className="font-playfair text-4xl font-bold text-cream">Shopping Cart</h1>
         </div>
       </div>

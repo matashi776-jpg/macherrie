@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-2">
-            <div className="font-script text-4xl text-rose-300 mb-3">Ma Cherry</div>
+            <div className="font-script text-4xl text-cherry mb-3">Ma Cherrie</div>
             <p className="text-cream/50 text-sm leading-relaxed mb-6 max-w-sm">
               Luxury beauty inspired by Africa and Asia. Where ancient wisdom meets modern elegance.
             </p>
@@ -55,7 +55,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between text-xs text-cream/40">
-          <p>&copy; {new Date().getFullYear()} MA space Cherry. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} MA space Cherrie. All rights reserved.</p>
           <p>Made with love for beautiful skin & hair</p>
         </div>
       </div>

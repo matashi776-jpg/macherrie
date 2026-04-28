@@ -26,7 +26,7 @@ function ProductsContent() {
     <div>
       <div className="bg-dark pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <div className="font-script text-rose-300 text-3xl mb-2">Our Collection</div>
+          <div className="font-script text-cherry text-3xl mb-2">Our Collection</div>
           <h1 className="font-playfair text-5xl font-bold text-cream">All Products</h1>
           <p className="text-cream/60 mt-3">Discover luxury beauty from Africa to Asia</p>
         </div>

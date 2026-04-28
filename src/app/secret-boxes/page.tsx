@@ -3,10 +3,10 @@ import SecretBoxCard from './SecretBoxCard'
 import { Star, Gift, Sparkles } from 'lucide-react'
 
 const BOX_TIERS = [
-  { level: 'Bronze', color: { from: '#4A2000', to: '#C87020' }, accent: '#C87020', sparkles: '✨', perks: ['3-4 full-size products', 'Body care essentials', 'Worth over $80', 'Free gift wrapping'] },
-  { level: 'Silver', color: { from: '#2A2A3A', to: '#8A8AAA' }, accent: '#C0C0D0', sparkles: '💫', perks: ['5-6 full-size products', 'Hair + Body mix', 'Worth over $130', 'Free gift + card'] },
-  { level: 'Gold', color: { from: '#3A2A00', to: '#D4AF37' }, accent: '#D4AF37', sparkles: '⭐', perks: ['7-8 full-size products', 'Full luxury collection', 'Worth over $220', 'Exclusive limited items'] },
-  { level: 'Diamond', color: { from: '#1A0A2A', to: '#6A3AAA' }, accent: '#E0D0FF', sparkles: '💎', perks: ['10+ full-size products', 'Exclusive items', 'Worth over $400', 'Personalized note from founders'] },
+  { level: 'Bronze', color: { from: '#FF6B35', to: '#FFB347' }, accent: '#FFB347', sparkles: '✨', perks: ['3-4 full-size products', 'Body care essentials', 'Worth over $80', 'Free gift wrapping'] },
+  { level: 'Silver', color: { from: '#7B2FBE', to: '#C084FC' }, accent: '#E9D5FF', sparkles: '💫', perks: ['5-6 full-size products', 'Hair + Body mix', 'Worth over $130', 'Free gift + card'] },
+  { level: 'Gold', color: { from: '#F59E0B', to: '#FCD34D' }, accent: '#FDE68A', sparkles: '⭐', perks: ['7-8 full-size products', 'Full luxury collection', 'Worth over $220', 'Exclusive limited items'] },
+  { level: 'Diamond', color: { from: '#E91E8C', to: '#7B2FBE' }, accent: '#F5D0FE', sparkles: '💎', perks: ['10+ full-size products', 'Exclusive items', 'Worth over $400', 'Personalized note from founders'] },
 ]
 
 export default async function SecretBoxesPage() {
@@ -24,9 +24,9 @@ export default async function SecretBoxesPage() {
             <Gift className="w-4 h-4 text-champagne" />
             <span className="text-champagne text-sm">Limited Edition Collections</span>
           </div>
-          <div className="font-script text-rose-300 text-4xl mb-3">Surprise Yourself</div>
+          <div className="font-script text-cherry text-4xl mb-3">Surprise Yourself</div>
           <h1 className="font-playfair text-5xl font-bold text-cream mb-4">Secret Boxes</h1>
-          <p className="text-cream/60 max-w-xl mx-auto">Curated mystery boxes filled with Ma Cherry&apos;s finest products. Each tier offers an extraordinary unboxing experience.</p>
+          <p className="text-cream/60 max-w-xl mx-auto">Curated mystery boxes filled with Ma Cherrie&apos;s finest products. Each tier offers an extraordinary unboxing experience.</p>
         </div>
       </div>
 

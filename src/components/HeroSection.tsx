@@ -7,10 +7,10 @@ export default function HeroSection() {
     <section className="relative min-h-screen bg-dark flex items-center overflow-hidden">
       {/* Animated background orbs */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cherry/20 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-rose-gold/15 rounded-full blur-3xl animate-float-delay" />
-        <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-champagne/10 rounded-full blur-3xl animate-float-delay2" />
-        <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 50% 50%, rgba(139,26,74,0.1) 0%, transparent 70%)' }} />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cherry/30 rounded-full blur-3xl animate-float" />
+        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-violet/20 rounded-full blur-3xl animate-float-delay" />
+        <div className="absolute top-1/2 right-1/3 w-64 h-64 bg-coral/20 rounded-full blur-3xl animate-float-delay2" />
+        <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at 50% 50%, rgba(233,30,140,0.15) 0%, transparent 70%)' }} />
       </div>
 
       {/* Grid pattern */}
@@ -23,7 +23,7 @@ export default function HeroSection() {
             <span className="text-champagne text-sm font-medium">African & Asian Luxury Beauty</span>
           </div>
 
-          <div className="font-script text-rose-300 text-5xl md:text-7xl mb-4 animate-float">Ma Cherry</div>
+          <div className="font-script text-cherry text-5xl md:text-7xl mb-4 animate-float">Ma Cherrie</div>
 
           <h1 className="font-playfair text-cream text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             MA space

@@ -5,8 +5,8 @@ import Footer from '@/components/Footer'
 import SessionWrapper from '@/components/SessionWrapper'
 
 export const metadata: Metadata = {
-  title: 'MA space Cherry | Luxury Beauty',
-  description: 'African & Asian-inspired luxury cosmetics. Body care, hair care, and secret beauty boxes by Ma Cherry.',
+  title: 'MA space Cherrie | Luxury Beauty',
+  description: 'African & Asian-inspired luxury cosmetics. Body care, hair care, and secret beauty boxes by Ma Cherrie.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

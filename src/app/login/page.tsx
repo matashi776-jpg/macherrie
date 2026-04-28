@@ -30,7 +30,7 @@ function LoginContent() {
     <div className="min-h-screen bg-dark flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-10">
-          <div className="font-script text-rose-300 text-5xl mb-3">Ma Cherry</div>
+          <div className="font-script text-cherry text-5xl mb-3">Ma Cherrie</div>
           <h1 className="font-playfair text-3xl font-bold text-cream">Welcome Back</h1>
           <p className="text-cream/50 mt-2 text-sm">Sign in to your account</p>
         </div>

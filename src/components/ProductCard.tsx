@@ -17,12 +17,12 @@ interface Product {
 }
 
 const categoryColors: Record<string, { from: string; to: string; accent: string }> = {
-  BODY_CARE: { from: '#8B1A4A', to: '#D4627A', accent: '#F4A3B5' },
-  DRY_HAIR: { from: '#7A4F0A', to: '#C4860A', accent: '#F5C56A' },
-  CURLY_HAIR: { from: '#3D1A7A', to: '#7A3DB8', accent: '#C4A3F5' },
-  MASKS: { from: '#6A0A1A', to: '#AA2A3A', accent: '#F5A3A3' },
-  SHAMPOOS: { from: '#0A4A3A', to: '#1A8A6A', accent: '#7ACFB8' },
-  SECRET_BOX: { from: '#5A4A0A', to: '#A07A1A', accent: '#F5D98A' },
+  BODY_CARE: { from: '#E91E8C', to: '#FF79B3', accent: '#FFB3D9' },
+  DRY_HAIR: { from: '#FF6B35', to: '#FFB347', accent: '#FFD9A3' },
+  CURLY_HAIR: { from: '#7B2FBE', to: '#B47DD9', accent: '#D9B3F5' },
+  MASKS: { from: '#E91E8C', to: '#FF5E5B', accent: '#FFB3A3' },
+  SHAMPOOS: { from: '#00B09B', to: '#96C93D', accent: '#B3F5D9' },
+  SECRET_BOX: { from: '#F7971E', to: '#FFD200', accent: '#FFF5A0' },
 }
 
 export default function ProductCard({ product }: { product: Product }) {

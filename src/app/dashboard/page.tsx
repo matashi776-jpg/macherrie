@@ -50,7 +50,7 @@ function DashboardContent() {
     <div className="min-h-screen bg-cream">
       <div className="bg-dark pt-32 pb-12">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="font-script text-rose-300 text-3xl mb-2">Welcome back</div>
+          <div className="font-script text-cherry text-3xl mb-2">Welcome back</div>
           <h1 className="font-playfair text-4xl font-bold text-cream">{user?.name || 'Cherry Member'}</h1>
         </div>
       </div>

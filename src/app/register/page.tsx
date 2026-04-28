@@ -34,9 +34,9 @@ export default function RegisterPage() {
     <div className="min-h-screen bg-dark flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-10">
-          <div className="font-script text-rose-300 text-5xl mb-3">Ma Cherry</div>
+          <div className="font-script text-cherry text-5xl mb-3">Ma Cherrie</div>
           <h1 className="font-playfair text-3xl font-bold text-cream">Create Account</h1>
-          <p className="text-cream/50 mt-2 text-sm">Join the Ma Cherry community</p>
+          <p className="text-cream/50 mt-2 text-sm">Join the Ma Cherrie community</p>
         </div>
 
         <div className="glass-dark rounded-3xl p-8">

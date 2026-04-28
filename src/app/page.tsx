@@ -8,12 +8,12 @@ import { getCategoryLabel, getCategoryEmoji } from '@/lib/utils'
 const CATEGORIES = ['BODY_CARE', 'DRY_HAIR', 'CURLY_HAIR', 'MASKS', 'SHAMPOOS', 'SECRET_BOX']
 
 const categoryBgs: Record<string, string> = {
-  BODY_CARE: 'from-rose-900 to-pink-700',
-  DRY_HAIR: 'from-amber-900 to-yellow-700',
-  CURLY_HAIR: 'from-purple-900 to-violet-700',
-  MASKS: 'from-red-900 to-rose-700',
-  SHAMPOOS: 'from-teal-900 to-emerald-700',
-  SECRET_BOX: 'from-yellow-900 to-amber-600',
+  BODY_CARE: 'from-fuchsia-500 to-pink-400',
+  DRY_HAIR: 'from-orange-500 to-amber-400',
+  CURLY_HAIR: 'from-purple-600 to-violet-500',
+  MASKS: 'from-rose-500 to-fuchsia-400',
+  SHAMPOOS: 'from-emerald-500 to-teal-400',
+  SECRET_BOX: 'from-yellow-500 to-amber-400',
 }
 
 export default async function HomePage() {
@@ -54,7 +54,7 @@ export default async function HomePage() {
       <section className="py-24 bg-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="font-script text-rose-300 text-3xl mb-2">Collections</div>
+            <div className="font-script text-cherry text-3xl mb-2">Collections</div>
             <h2 className="font-playfair text-4xl font-bold text-cream">Shop by Category</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -80,10 +80,10 @@ export default async function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="font-script text-rose-300 text-3xl mb-4">Our Story</div>
+              <div className="font-script text-cherry text-3xl mb-4">Our Story</div>
               <h2 className="font-playfair text-4xl font-bold text-cream mb-6">Beauty Without Borders</h2>
               <p className="text-cream/60 leading-relaxed mb-4">
-                MA space Cherry was born from a belief that the world&apos;s most powerful beauty secrets live in ancient traditions 
+                MA space Cherrie was born from a belief that the world&apos;s most powerful beauty secrets live in ancient traditions 
                 — from the shea forests of West Africa to the camellia gardens of Japan.
               </p>
               <p className="text-cream/60 leading-relaxed mb-8">
@@ -106,7 +106,7 @@ export default async function HomePage() {
             <div className="relative">
               <div className="w-full h-80 rounded-2xl overflow-hidden bg-gradient-to-br from-cherry to-rose-gold flex items-center justify-center">
                 <div className="text-center">
-                  <div className="font-script text-white text-6xl mb-3">Ma Cherry</div>
+                  <div className="font-script text-white text-6xl mb-3">Ma Cherrie</div>
                   <p className="text-white/70 text-sm">Luxury Beauty, Inspired by the World</p>
                 </div>
                 <div className="absolute top-8 right-8 w-20 h-20 bg-white/10 rounded-full animate-float" />
